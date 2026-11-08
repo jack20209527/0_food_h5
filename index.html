@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#1a0606">
+  <title>名扬臻味 · 四味风物志</title>
+  <meta name="description" content="名扬臻味 —— 一部舌尖上的东方风物志：东坡肘子、三河油豆皮、干炸丸子、炸红薯条">
+  <link rel="stylesheet" href="fonts/mashanzheng.css">
+  <link rel="stylesheet" href="fonts/notoserifsc.css">
+  <link rel="stylesheet" href="fonts/playfair.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-loading">
+
+  <!-- ========== 开场揭幕 ========== -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-seal">
+      <span class="seal-char">臻</span>
+      <span class="seal-char">味</span>
+    </div>
+    <div class="loader-line"></div>
+    <p class="loader-sub">四 味 风 物 志</p>
+  </div>
+
+  <!-- 金色粒子层 -->
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <!-- 顶部阅读进度 -->
+  <div id="progress" aria-hidden="true"></div>
+
+  <!-- 顶栏 -->
+  <header id="topbar">
+    <div class="brand">
+      <span class="brand-mark">味</span>
+      <span class="brand-name">名扬臻味</span>
+    </div>
+    <p class="brand-sub">MINGYANG ZHENWEI · 舌尖风物志</p>
+  </header>
+
+  <!-- 右侧圆点导航 -->
+  <nav id="dots" aria-label="页面导航">
+    <a href="#hero"    data-label="序章"><i></i></a>
+    <a href="#dish-1"  data-label="东坡肘子"><i></i></a>
+    <a href="#dish-2"  data-label="三河油豆皮"><i></i></a>
+    <a href="#dish-3"  data-label="干炸丸子"><i></i></a>
+    <a href="#dish-4"  data-label="炸红薯条"><i></i></a>
+    <a href="#finale"  data-label="尾声"><i></i></a>
+  </nav>
+
+  <!-- 回到顶部 -->
+  <button id="backTop" aria-label="回到顶部" title="回到顶部"><i></i></button>
+
+  <main>
+
+    <!-- ========== 序章 ========== -->
+    <section id="hero" class="screen" data-nav="序章">
+      <div class="hero-watermark" aria-hidden="true">食</div>
+      <div class="hero-inner">
+        <p class="hero-kicker reveal">中 国 美 食 风 物 志</p>
+        <h1 class="hero-title">
+          <span class="hero-char">名</span>
+          <span class="hero-char">扬</span>
+          <span class="hero-char">臻</span>
+          <span class="hero-char">味</span>
+        </h1>
+        <div class="hero-line reveal"></div>
+        <p class="hero-sub reveal">四方食事 · 不过一碗人间烟火</p>
+        <p class="hero-en reveal">MINGYANG ZHENWEI · GOURMET COLLECTION</p>
+        <div class="hero-dishes reveal">
+          <span>东坡肘子</span><b>·</b><span>三河油豆皮</span><b>·</b><span>干炸丸子</span><b>·</b><span>炸红薯条</span>
+        </div>
+      </div>
+      <div class="hero-side left" aria-hidden="true">山 珍 海 味</div>
+      <div class="hero-side right" aria-hidden="true">人 间 烟 火</div>
+      <div class="scroll-hint reveal">
+        <span class="mouse"><i></i></span>
+        <span class="hint-text">向下滚动 · 开启盛宴</span>
+      </div>
+    </section>
+
+    <!-- ========== 01 东坡肘子 ========== -->
+    <section id="dish-1" class="screen dish" data-nav="东坡肘子">
+      <span class="dish-watermark" aria-hidden="true">壹</span>
+      <div class="dish-inner">
+        <div class="dish-media">
+          <figure class="img-frame">
+            <div class="img-clip"><img src="images/dongpo.jpg" alt="东坡肘子"></div>
+            <span class="seal">味</span>
+          </figure>
+          <div class="smokes" aria-hidden="true">
+            <i class="smoke sm1"><b></b></i>
+            <i class="smoke sm2"><b></b></i>
+            <i class="smoke sm3"><b></b></i>
+            <i class="smoke sm4"><b></b></i>
+          </div>
+        </div>
+        <div class="dish-text">
+          <p class="dish-kicker reveal">川 · 眉山 <em>SICHUAN · MEISHAN</em></p>
+          <h2 class="dish-name reveal">东坡肘子</h2>
+          <p class="dish-latin reveal">DONGPO PORK KNUCKLE</p>
+          <div class="gold-line reveal"></div>
+          <p class="dish-quote reveal">肥而不腻 · 糯而不烂</p>
+          <p class="dish-story reveal">相传此味发于北宋，苏东坡之妻王弗于眉山家中首创，后随东坡宦游四海而名动天下。整肘焯水去腥，文火慢煨数个时辰，再上笼蒸至酥融，火功到家，方能皮糯肉酥、汤浓味厚。</p>
+          <p class="dish-story reveal">色如枣红琥珀，筷尖轻拨即离骨，咸鲜回甜，油润的胶质在唇齿间化作一缕绵长余韵，是川人席面上当仁不让的压轴硬菜。</p>
+          <ul class="dish-tags reveal">
+            <li>咸鲜</li><li>软糯</li><li>肥而不腻</li><li>胶质醇厚</li>
+          </ul>
+          <div class="dish-meta reveal">
+            <div><b>火候</b><span>文火慢煨 · 三时辰</span></div>
+            <div><b>主味</b><span>咸鲜回甜</span></div>
+            <div><b>绝配</b><span>荷叶饼 · 雪豆炖汤</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 02 三河油豆皮 ========== -->
+    <section id="dish-2" class="screen dish even" data-nav="三河油豆皮">
+      <span class="dish-watermark" aria-hidden="true">贰</span>
+      <div class="dish-inner">
+        <div class="dish-text">
+          <p class="dish-kicker reveal">冀 · 三河 <em>HEBEI · SANHE</em></p>
+          <h2 class="dish-name reveal">三河油豆皮</h2>
+          <p class="dish-latin reveal">SANHE BEAN CURD SHEETS</p>
+          <div class="gold-line reveal"></div>
+          <p class="dish-quote reveal">薄如蝉翼 · 豆香盈袖</p>
+          <p class="dish-story reveal">燕山脚下的三河小城，把一粒黄豆做到了极致。精选饱满大豆磨浆，浆沸时以竹签轻揭其皮，一层一晾，日晒风干而就。金黄透亮的豆皮薄可透光，却韧性十足，是泃河两岸传承百年的家常至味。</p>
+          <p class="dish-story reveal">温水回软后切条凉拌，淋一勺香油辣子，爽滑弹牙；热锅快炒则豆香四溢，吸饱汤汁处尤为动人。朴素之味，最见真章。</p>
+          <ul class="dish-tags reveal">
+            <li>豆香浓郁</li><li>爽滑筋道</li><li>薄如蝉翼</li><li>素雅本味</li>
+          </ul>
+          <div class="dish-meta reveal">
+            <div><b>工艺</b><span>浆沸揭皮 · 日晒而成</span></div>
+            <div><b>主味</b><span>本味豆香</span></div>
+            <div><b>吃法</b><span>凉拌 · 热炒 · 下火锅</span></div>
+          </div>
+        </div>
+        <div class="dish-media">
+          <figure class="img-frame">
+            <div class="img-clip"><img src="images/doupi.jpg" alt="三河油豆皮"></div>
+            <span class="seal">素</span>
+          </figure>
+          <div class="smokes" aria-hidden="true">
+            <i class="smoke sm1"><b></b></i>
+            <i class="smoke sm2"><b></b></i>
+            <i class="smoke sm3"><b></b></i>
+            <i class="smoke sm4"><b></b></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 03 干炸丸子 ========== -->
+    <section id="dish-3" class="screen dish" data-nav="干炸丸子">
+      <span class="dish-watermark" aria-hidden="true">叁</span>
+      <div class="dish-inner">
+        <div class="dish-media">
+          <figure class="img-frame">
+            <div class="img-clip"><img src="images/wanzi.jpg" alt="干炸丸子"></div>
+            <span class="seal">香</span>
+          </figure>
+          <div class="smokes" aria-hidden="true">
+            <i class="smoke sm1"><b></b></i>
+            <i class="smoke sm2"><b></b></i>
+            <i class="smoke sm3"><b></b></i>
+            <i class="smoke sm4"><b></b></i>
+          </div>
+        </div>
+        <div class="dish-text">
+          <p class="dish-kicker reveal">京 · 年节 <em>OLD BEIJING FEAST</em></p>
+          <h2 class="dish-name reveal">干炸丸子</h2>
+          <p class="dish-latin reveal">CRISPY DEEP-FRIED MEATBALLS</p>
+          <div class="gold-line reveal"></div>
+          <p class="dish-quote reveal">外壳酥响 · 内里滚烫</p>
+          <p class="dish-story reveal">老北京年节的看家菜，讲究三分肥七分瘦，手工细细剁馅，葱姜水打上劲，团成鹌鹑大小的丸子。热油定型，复火再炸，逼出多余油脂，只留一身金黄铠甲。</p>
+          <p class="dish-story reveal">趁热咬开，外壳喀嚓一声酥响，内里肉汁滚烫喷香，蘸一点椒盐入口，椒麻与肉香在舌尖次第炸开——这是北方孩子关于团圆最直接的记忆。</p>
+          <ul class="dish-tags reveal">
+            <li>外酥里嫩</li><li>椒香四溢</li><li>金黄酥脆</li><li>一口爆汁</li>
+          </ul>
+          <div class="dish-meta reveal">
+            <div><b>要诀</b><span>手工上劲 · 复炸两遍</span></div>
+            <div><b>主味</b><span>椒盐咸香</span></div>
+            <div><b>蘸料</b><span>花椒盐 · 椒麻碟</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 04 炸红薯条 ========== -->
+    <section id="dish-4" class="screen dish even" data-nav="炸红薯条">
+      <span class="dish-watermark" aria-hidden="true">肆</span>
+      <div class="dish-inner">
+        <div class="dish-text">
+          <p class="dish-kicker reveal">街 巷 甜 物 <em>SWEET STREET SNACK</em></p>
+          <h2 class="dish-name reveal">炸红薯条</h2>
+          <p class="dish-latin reveal">CRISPY SWEET POTATO STICKS</p>
+          <div class="gold-line reveal"></div>
+          <p class="dish-quote reveal">金黄一列 · 甜糯入心</p>
+          <p class="dish-story reveal">沙地蜜薯去皮切条，挂一层薄浆，落进热油里翻滚片刻便通体金黄。外壳焦脆，内里糖心软糯，拽着丝丝暖甜的香气，是冬日巷口最招人惦记的小食。</p>
+          <p class="dish-story reveal">出锅撒一撮糖粉，或蘸一碟蜂蜜炼乳，咬破酥皮的瞬间，滚烫的薯香混着焦糖气息涌出来——平凡的食材，也能炸出滚烫的幸福。</p>
+          <ul class="dish-tags reveal">
+            <li>外脆内糯</li><li>甜香馥郁</li><li>金黄焦边</li><li>糖心流蜜</li>
+          </ul>
+          <div class="dish-meta reveal">
+            <div><b>选材</b><span>沙地蜜薯 · 现切现炸</span></div>
+            <div><b>主味</b><span>焦糖甜香</span></div>
+            <div><b>蘸料</b><span>蜂蜜 · 炼乳 · 糖粉</span></div>
+          </div>
+        </div>
+        <div class="dish-media">
+          <figure class="img-frame">
+            <div class="img-clip"><img src="images/shuchai.jpg" alt="炸红薯条"></div>
+            <span class="seal">甜</span>
+          </figure>
+          <div class="smokes" aria-hidden="true">
+            <i class="smoke sm1"><b></b></i>
+            <i class="smoke sm2"><b></b></i>
+            <i class="smoke sm3"><b></b></i>
+            <i class="smoke sm4"><b></b></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 尾声 ========== -->
+    <section id="finale" class="screen" data-nav="尾声">
+      <div class="hero-watermark" aria-hidden="true">宴</div>
+      <div class="finale-inner">
+        <div class="finale-seal reveal">味</div>
+        <h2 class="finale-title">
+          <span class="hero-char">一</span><span class="hero-char">箸</span><span class="hero-char">知</span><span class="hero-char">味</span>
+        </h2>
+        <div class="hero-line reveal"></div>
+        <p class="hero-sub reveal">四方食事 · 人间值得</p>
+        <p class="finale-note reveal">东坡肘子的醇厚、油豆皮的清雅、炸丸子的酥响、红薯条的甜糯——<br>四味入喉，皆是人间。</p>
+        <p class="finale-footer reveal">名扬臻味 · MINGYANG ZHENWEI</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
